@@ -64,7 +64,7 @@ def removeCar(allowedVehiclesList):
     else:
       print("Please enter yes or no")
   else:
-      print(f'{delCar} is not on the Authorized Vehicles List, if you received this in error please check the spelling and try again')
+      print(f'"{delCar}" is not on the Authorized Vehicles List, if you received this in error please check the spelling and try again')
 
 
 def main(allowedVehiclesList, menu):
