@@ -46,7 +46,7 @@ def addCar(allowedVehiclesList):
       vehiclesList.write(car + "\n")
     print(f'You have added "{car}" as an authorized vehicle')
   else:
-    print(f'"{car}"is already authorized')
+    print(f'"{car}" is already authorized')
 
 
 def removeCar(allowedVehiclesList):
